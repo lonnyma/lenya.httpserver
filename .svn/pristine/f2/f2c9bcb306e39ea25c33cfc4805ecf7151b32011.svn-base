@@ -1,0 +1,11 @@
+package com.tcl.video.httpserver.services;
+
+import cn.lenya.soft.common.rs.ListRs;
+
+import com.tcl.video.httpserver.bean.ModuleBean;
+
+public interface IModuleServices {
+
+	
+	ListRs<ModuleBean> getModuleList();	
+}

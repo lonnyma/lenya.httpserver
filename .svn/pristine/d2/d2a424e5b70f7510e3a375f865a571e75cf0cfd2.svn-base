@@ -1,0 +1,11 @@
+package com.tcl.video.httpserver.dao;
+
+
+import cn.lenya.soft.common.rs.ListRs;
+
+import com.tcl.video.httpserver.bean.ModuleBean;
+
+public interface IModuleDao {
+
+	public ListRs<ModuleBean> getModuleList(String sql,Object args[]);
+}
